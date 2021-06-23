@@ -1,6 +1,6 @@
 interface Teacher {
     readonly firstName: string,
-    readonly lastname: string,
+    readonly lastName: string,
     fullTimeEmployee: boolean,
     yearsOfExperience?: number,
     location: string,
@@ -10,3 +10,10 @@ interface Teacher {
 interface Directors extends Teacher {
     numberOfReports: number,
 }
+
+interface printTeacherFunction {
+    (firstName: string, lastName: string): string
+}
+
+export const printTeacher: printTeacherFunction = (firstName: string, lastName: string): string =>
+    `${firstName.charAt(0)}. ${lastName}`;
