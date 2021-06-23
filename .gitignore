@@ -1,0 +1,15 @@
+# Ignore emacs autosave files ~
+*~
+# Ignore compiled files
+*.[oa]
+# Ignore executables
+[abcdefghijk]
+# Byte-compiled
+__pycache__/
+# Ignore database basic atuhentication
+.db_User.json
+# ignore dumps NoSQL databases
+dump.zip
+dump/
+# node modules
+node_modules/
