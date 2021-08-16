@@ -13,3 +13,6 @@ dump.zip
 dump/
 # node modules
 node_modules/
+
+#webpack bundle
+main.js
