@@ -16,3 +16,5 @@ node_modules/
 
 #webpack bundle
 main.js
+bundle.js
+bundle.js*
