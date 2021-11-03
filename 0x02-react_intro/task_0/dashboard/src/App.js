@@ -11,7 +11,7 @@ function App() {
       <div className="App-body">
         <p>Login to access the full dashboard</p>
       </div>
-      <div class Name="App-footer">
+      <div className="App-footer">
         <p>Copyright 2020 - Holberton School</p>
       </div>
     </>
