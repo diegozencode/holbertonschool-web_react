@@ -1,0 +1,30 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Create project using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "start-dev": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Diego Monroy",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "style-loader": "^3.2.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21"
+  }
+}
